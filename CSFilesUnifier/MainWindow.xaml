@@ -1,0 +1,10 @@
+﻿<Window x:Class="CSFilesUnifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="400" Background="White" >
+    <Grid>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="248,125,0,0" VerticalAlignment="Top" Width="79" Click="ClickOnBrowseButton" Height="26"/>
+        <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="53,52,0,0" TextWrapping="Wrap" Text="Select a file or folder from your computer:" VerticalAlignment="Top"/>
+        <Button Content="Unify" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="226,189,0,0" Height="40" Click="ClickOnUniflyButton"/>
+    </Grid>
+</Window>
